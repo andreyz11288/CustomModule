@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="product.info.main">
+            <container name="dv.campus.personal.discount.form.container">
+                <block class="CustomModule\QuickBuy\Block\Button" name="quickbuy1.button" template="CustomModule_QuickBuy::button.phtml" />
+            </container>
+        </referenceContainer>
+    </body>
+</page>

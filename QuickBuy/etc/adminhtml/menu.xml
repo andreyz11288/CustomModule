@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework/Menu/etc/menu.xsd">
+    <menu>
+        <add id="CustomModule_QuickBuy::quickbuy"
+             title="Quick Buy"
+             translate="title"
+             module="CustomModule_QuickBuy"
+             sortOrder="100"
+             resource="CustomModule_QuickBuy::quickbuy"
+        />
+        <add id="CustomModule_QuickBuy::grid"
+             title="Quick Buy Grid"
+             translate="title"
+             module="CustomModule_QuickBuy"
+             sortOrder="10"
+             action="quickbuy/grid/index"
+             parent="CustomModule_QuickBuy::quickbuy"
+             resource="CustomModule_QuickBuy::grid"
+        />
+    </menu>
+</config>
